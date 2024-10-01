@@ -1,0 +1,38 @@
+.single-choice-container{
+    width: 100%;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.single-choice-list{
+    list-style: none;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2px !important;
+    padding-left: 0px !important;
+    margin-bottom: 0px;
+}
+
+.single-choice-item{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 20px !important;
+}
+
+.single-choice-div{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    align-items: center;
+    gap: 12px !important;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.single-choice-label{
+    color: gray;
+}

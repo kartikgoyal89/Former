@@ -1,0 +1,84 @@
+.picture-choice-container {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  
+}
+
+.picture-choice-container.active {
+  outline: 3px solid rgb(1,163,254);
+}
+
+.el-heading {
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.picture-options {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.picture-option {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.picture-option.selected {
+  border-color: #e1e1e1;
+}
+
+.picture-option img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.choice {
+  margin-top: 10px;
+}
+
+.radio-button {
+  margin-right: 5px;
+}
+
+.picture-label {
+  margin: 0;
+  font-size: 14px;
+}
+
+.pic-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure the image doesn't overflow the div */
+}
+
+.pic-div-4 {
+  height: 110px;
+}
+
+.pic-div-3 {
+  height: 140px;
+}
+
+.pic-div-2 {
+  height: 200px;
+}
+
+.pic-div-1 {
+  height: 250px;
+}
+
+.picture-radio {
+  width: 20px !important;
+}

@@ -1,0 +1,58 @@
+{
+    "inputText": {
+      "label": "Number",
+      "isHeading": true,
+      "headingIcon": "TbNumbers",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Number",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "type": "input",
+      "designType": "general"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "Enter your Value",
+      "column": "column",
+      "type": "input",
+      "designType": "general"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "defaultVal": {
+      "label": "Default Value",
+      "defaultValue": "Default Value",
+      "column": "column",
+      "type": "number",
+      "designType": "advanced"
+    },
+    "MinChar": {
+      "label": "Minimum Value",
+      "defaultValue": "100",
+      "column": "column",
+      "type": "number",
+      "designType": "advanced"
+    },
+    "MaxChar": {
+      "label": "Maximum Value",
+      "defaultValue": "500",
+      "column": "column",
+      "type": "number",
+      "designType": "advanced"
+    }
+  }
+  

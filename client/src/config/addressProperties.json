@@ -1,0 +1,160 @@
+{
+    "inputText": {
+      "label": "Address",
+      "isHeading": true,
+      "headingIcon": "PiMapPinBold",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Address",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "Street1": {
+      "label": "Street Address",
+      "defaultValue": "Street Address",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "Street2": {
+      "label": "Street Address line 2",
+      "defaultValue": "Street Address line 2",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "city": {
+      "label": "City",
+      "defaultValue": "City",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "province": {
+      "label": "State/Province",
+      "defaultValue": "State/Province",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "postal": {
+      "label": "Postal/Zip Code",
+      "defaultValue": "Postal/Zip Code",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "country": {
+      "label": "Country",
+      "defaultValue": "Country",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "pStreet1": {
+      "label": "Street Address",
+      "defaultValue": "Street Address",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "pStreet2": {
+      "label": "Street Address line 2",
+      "defaultValue": "Street Address line 2",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "pcity": {
+      "label": "City",
+      "defaultValue": "City",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "pprovince": {
+      "label": "State/Province",
+      "defaultValue": "State/Province",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "ppostal": {
+      "label": "Postal/Zip Code",
+      "defaultValue": "Postal/Zip Code",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "pcountry": {
+      "label": "Country",
+      "defaultValue": "Country",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    }, 
+       
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "VisibleOptions": {
+      "label": "Visible Options",
+      "type": "option",
+      "column": "column",
+      "context": "address",
+      "designType": "advanced",
+      "options": [
+        {
+          "id": 1,
+          "label": "Street Address",
+          "value": "street1",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "label": "Street Address line 2",
+          "value": "street2",
+          "checked": true
+        },
+        {
+          "id": 3,
+          "label": "City",
+          "value": "city",
+          "checked": true
+        },
+        {
+          "id": 4,
+          "label": "State/Province",
+          "value": "state",
+          "checked": true
+        },
+        {
+          "id": 5,
+          "label": "Postal/Zip Code",
+          "value": "postal",
+          "checked": true
+        },
+        {
+          "id": 6,
+          "label": "Country",
+          "value": "country",
+          "checked": true 
+        }
+      ]
+    }
+  }
+  

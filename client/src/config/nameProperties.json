@@ -1,0 +1,91 @@
+{
+  "inputText": {
+    "label": "Name",
+    "isHeading": true,
+    "headingIcon": "AiOutlineUser",
+    "type": "heading",
+    "designType": "head"
+  },
+  "design": {
+  "label1": "General Properties",
+  "label2": "Advanced",
+  "type": "design",
+  "designType": "head"
+},
+  "fieldLabel": {
+    "label": "Field-Label",
+    "defaultValue": "Name",
+    "column": "column",
+    "paragraph": "Type your question. Use @ to recall answer from previous question.",
+    "type": "input",
+    "designType": "general"
+  },
+  "required": {
+    "label": "Required",
+    "type": "toggle",
+    "defaultValue": "off",
+    "designType": "general"
+  },
+  "firstNameInput": {
+    "label": "First Name",
+    "defaultValue": "First Name",
+    "column": "column",
+    "paragraph": "Type your question. Use @ to recall answer from previous question.",
+    "type": "input",
+    "designType": "general"
+  },
+  "lastNameInput": {
+    "label": "Last Name",
+    "defaultValue": "Last Name",
+    "column": "column",
+    "paragraph": "Type your question. Use @ to recall answer from previous question.",
+     "type": "input",
+    "designType": "general"
+  },
+  "subHeadingPlaceholder": {
+    "label": "Placeholders",
+    "type": "head",
+    "designType": "general"
+  },
+  "firstPlaceholder": {
+    "label": "First Name",
+    "defaultValue": "First Name",
+    "column": "column",
+     "type": "input",
+    "designType": "general"
+  },
+  "lastPlaceholder": {
+    "label": "Last Name",
+    "defaultValue": "Last Name",
+    "column": "column",
+     "type": "input",
+    "designType": "general"
+  },
+  "VisibleOptions": {
+    "label": "Visible Options",
+    "type": "option",
+    "context": "name",
+    "column": "column",
+    "designType": "advanced",
+    "options": [
+      {
+        "id": 1,
+        "label": "First Name",
+        "value": "firstName",
+        "checked": true
+      },
+      {
+        "id": 2,
+        "label": "Middle Name",
+        "value": "middleName",
+        "checked": false
+      },
+      {
+        "id": 3,
+        "label": "Last Name",
+        "value": "lastName",
+        "checked": true
+      }
+    ]
+  }
+}

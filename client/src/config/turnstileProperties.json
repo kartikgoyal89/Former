@@ -1,0 +1,21 @@
+{
+    "inputText": {
+      "label": "Turnstile",
+      "isHeading": true,
+      "headingIcon": "BsArrowRepeat",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+  "alignment": {
+    "designType": "general",
+    "type": "alignment",
+    "column": "column",
+    "label": "Alignment"
+  }
+  }
+  

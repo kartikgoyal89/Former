@@ -1,0 +1,40 @@
+.file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .dropzone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 150px;
+    border: 2px dashed #00bfff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .dropzone p {
+    margin: 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .choose-file {
+    color: #00bfff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .choose-file:hover {
+    color: #009acd;
+  }
+  

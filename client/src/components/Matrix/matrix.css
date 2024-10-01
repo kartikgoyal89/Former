@@ -1,0 +1,49 @@
+.matrix-container {
+    width: 99.2%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .matrix-table th, .matrix-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .matrix-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .column-head{
+    font-weight: 400 !important;
+  }
+  .matrix-input{
+    border: none !important;
+  }
+
+  .radio-btn{
+    height: 30px !important;
+  }

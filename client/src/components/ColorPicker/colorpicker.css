@@ -1,0 +1,34 @@
+.color-picker-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .color-input {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .color-box {
+    width: 140px !important;
+    height: 30px !important;
+    cursor: pointer;
+  }
+  
+  .popover {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .color-box .color{
+    border-radius: 6px;
+  }

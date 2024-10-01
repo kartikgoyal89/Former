@@ -1,0 +1,15 @@
+
+
+          <FormComponent
+            items={items}
+            mainId={mainId}
+            formId={formId}
+            setTheProperties={setTheProperties}
+            submit={submit}
+            handleSubmitButton={handleSubmitButton}
+            submitButtonStyle={submitButtonStyle}
+            rankings={rankings}
+            singleChoice={singleChoice}
+            visibleArray={visibleArray}
+            uploadedImage={uploadedImage}
+          />

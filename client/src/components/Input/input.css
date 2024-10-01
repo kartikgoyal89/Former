@@ -1,0 +1,28 @@
+.input-container.selected{
+    outline: 3px solid rgb(1,163,254);
+    border-radius: 10px;
+    
+}
+
+.input-form-container{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.input-form-container input{
+    border: none;
+    width: 99%;
+    outline: none;
+    margin: 5px;
+    text-wrap: wrap;
+}
+
+.input-form-container.active{
+    outline: 3px solid rgb(1,163,254);
+    border-radius: 5px;
+}
+
+.input-form-container:hover .delete_{
+    display: block;
+}

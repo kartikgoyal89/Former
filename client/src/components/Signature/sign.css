@@ -1,0 +1,23 @@
+.sign-pad{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.1); */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100% !important;
+}
+.sign-pad canvas{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.sign-clear{
+    border: 1px solid #ccc;
+    background-color: transparent;
+    padding: 5px 15px;
+    border-radius: 4px;
+    outline: none;
+    font-weight: 500;
+    opacity: 0.8;
+}

@@ -1,0 +1,78 @@
+.heading-container input{
+    border: none;
+    outline: none;
+}
+
+
+.heading-container:hover{
+    border: 3px solid rgb(1,163,254);
+    border-radius: 10px;
+}
+
+.heading-container{
+    cursor: pointer;
+    position: relative;
+}
+.heading-container h1{
+    font-size: 36px;
+}
+
+.heading-container input{
+    cursor: pointer;
+    padding: 10px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.heading-container input::placeholder{
+    color: #000 !important;
+}
+
+.heading-container.selected{
+    border: 3px solid rgb(1,163,254);
+    border-radius: 10px;
+}
+.delete-btn{
+    position: absolute;
+    right: -10px;
+    font-size: 20px;
+    top: -5px;
+    background-color: peachpuff;
+    border-radius: 50%;
+    padding: 0px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header-form-container{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.header-form-container.active{
+    outline: 3px solid rgb(1,163,254);
+    border-radius: 5px;
+}
+
+
+.header-form-container h1{
+    width: 100%;
+    margin-bottom: 0;
+    padding: 10px 20px;
+}
+
+
+.header-form-container:hover .delete_{
+    display: block;
+}

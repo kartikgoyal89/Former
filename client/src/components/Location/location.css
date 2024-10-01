@@ -1,0 +1,47 @@
+.location-input-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .location-label {
+    margin-bottom: 5px;
+  }
+  
+  .location-description {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+  }
+  
+  .location-input-wrapper {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .location-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 0px !important;
+    color: gray;
+  }
+  
+  .location-icon-button {
+    background: #00bfff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+  }
+  
+  

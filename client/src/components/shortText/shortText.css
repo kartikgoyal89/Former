@@ -1,0 +1,27 @@
+.short-text-container{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom:5px;
+    margin-top: 5px;
+    outline: 1px solid rgb(1,163,254);
+    border-radius: 5px;
+}
+
+.short-text-container h6{
+    font-size: 18px;
+}
+
+.short-text-container input{
+    height: 40px;
+}
+
+
+.short-text-container.active{
+    outline: 3px solid rgb(1,163,254);
+    border-radius: 5px;
+}
+
+.short-text-container:hover .delete_{
+    display: block;
+}

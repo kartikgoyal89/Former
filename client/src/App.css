@@ -1,0 +1,60 @@
+
+.display-none{
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.draggable-option .cross{
+  visibility: hidden;
+
+}
+.draggable-option:hover .cross{
+  visibility: visible;
+}
+
+.cross .icon{
+  font-size: 18px;
+}
+.single-choice-input{
+  width: 20px !important;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+}
+.radio-button{
+  width: 25px !important;
+}
+
+.checkbox{
+  width: 20px !important;
+}
+
+.dropzone {
+  border: 2px dashed #007bff;
+  height: 86%;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.ReactModalPortal{
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 2;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open{
+  width: 500px !important;
+  height: 400px !important;
+}

@@ -1,0 +1,12 @@
+.delete_{
+    position: absolute;
+    right: -12px;
+    top: 3px;
+    z-index: 10;
+    background-color: peachpuff;
+    padding: 2px 5px;
+    border-radius: 6px;
+    color: red;
+    display: none;
+    cursor: pointer;
+}

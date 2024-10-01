@@ -1,0 +1,44 @@
+{
+    "inputText": {
+      "label": "Short Text",
+      "isHeading": true,
+      "headingIcon": "FiFileText",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Short Text",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "Type your answer here...",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "defaultVal": {
+      "label": "Default Value",
+      "designType": "advanced",
+      "type": "input",
+      "defaultValue": "Default Value",
+      "column": "column"
+    }
+  }
+  

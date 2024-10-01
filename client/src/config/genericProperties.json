@@ -1,0 +1,38 @@
+{
+    "inputText": {
+      "label": "Generic Embed",
+      "isHeading": true,
+      "headingIcon": "IoImageOutline",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "",
+      "placeholder": "Enter Question",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "upload": {
+      "label": "Generic Embed URL",
+      "designType": "general",
+      "type": "input",
+      "column": "column"
+    },
+    "videoHeight": {
+        "label": "Height",
+        "designType": "general",
+        "type": "number",
+        "max": 400,
+        "min": 150,
+        "defaultValue": 300
+    }
+  }
+  

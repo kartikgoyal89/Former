@@ -1,0 +1,23 @@
+.name-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.name-container p{
+    margin-bottom: 0;
+}
+
+.name{
+    flex: 1;
+    margin-right: 10px;
+}
+.last-name{
+    margin-right: 0px;
+}
+.name-input-container{
+    outline: none;
+}
+
+.name.hidden{
+    display: none !important;
+}

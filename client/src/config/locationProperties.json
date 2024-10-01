@@ -1,0 +1,36 @@
+{
+    "inputText": {
+      "label": "Location",
+      "isHeading": true,
+      "headingIcon": "TbCurrentLocation",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Location",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "type": "input",
+      "designType": "general"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "Enter Location",
+      "column": "column",
+      "type": "input",
+      "designType": "general"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    }
+  }
+  

@@ -1,0 +1,88 @@
+{
+  "headingText": {
+    "label": "Form Header",
+    "isHeading": true,
+    "headingIcon": "FaHeading",
+    "type": "heading",
+    "designType": "head"
+  },
+  "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+  "headingInput": {
+    "label": "Heading Text",
+    "type": "textarea",
+    "column": "column",
+    "defaultValue": "Form Header",
+    "designType": "general"
+  },
+  "fontSize": {
+    "label": "Font Size",
+    "defaultValue": 35,
+    "type": "number",
+    "name": "fontSize",
+    "max": 50,
+    "min": 20,
+    "designType": "general"
+  },
+  "color": {
+    "label": "Font Color",
+    "type": "color",
+    "value": "#000000",
+    "designType": "general"
+  },
+  "bold": {
+    "label": "Boldness",
+    "icon": "FaBold",
+    "type": "button",
+    "value": "B",
+    "display": "flex",
+    "designType": "general"
+  },
+  "italic": {
+    "label": "Font Italic",
+    "icon": "FaItalic",
+    "type": "button",
+    "value": "I",
+    "designType": "general"
+  },
+  "paddingTop": {
+    "label": "Padding Top",
+    "defaultValue": 0,
+    "type": "number",
+    "name": "paddingTop",
+    "max": 20,
+    "min": 0,
+    "designType": "advanced"
+  },
+  "paddingLeft": {
+    "label": "Padding Left",
+    "defaultValue": 0,
+    "type": "number",
+    "name": "paddingLeft",
+    "max": 100,
+    "min": 0,
+    "designType": "advanced"
+  },
+  "paddingBottom": {
+    "label": "Padding Bottom",
+    "defaultValue": 0,
+    "type": "number",
+    "name": "paddingBottom",
+    "max": 20,
+    "min": 0,
+    "designType": "advanced"
+  },
+  "paddingRight": {
+    "label": "Padding Right",
+    "defaultValue": 0,
+    "type": "number",
+    "name": "paddingRight",
+    "max": 20,
+    "min": 0,
+    "designType": "advanced"
+  }
+}

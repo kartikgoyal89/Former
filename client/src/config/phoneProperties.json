@@ -1,0 +1,36 @@
+{
+    "inputText": {
+      "label": "Phone",
+      "isHeading": true,
+      "headingIcon": "LuPhone",
+      "type": "head",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Phone",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "09123456789",
+      "column": "column",
+      "type": "number",
+      "designType": "general"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    }
+  }
+  

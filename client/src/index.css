@@ -1,0 +1,21 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.btn_.active-btn{
+  background-color: rgb(1,163,254);
+  border: none !important;
+  color: white;
+  font-weight: 600;
+}
+
+.el-heading{
+  letter-spacing: -0.8px;
+}

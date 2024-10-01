@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.devices{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.devices .device{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(92, 91, 91);
+    font-weight: 500;
+}
+
+.devices .device:nth-child(2){
+    border-right: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+}

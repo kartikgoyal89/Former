@@ -1,0 +1,46 @@
+   .rating-container {
+    outline: none;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  .scale-rating {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    gap: 10px;
+  }
+  
+  .rating-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+  }
+  
+  button.rating-button {
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
+  
+  .rating-button.selected {
+    border-color: #007bff;
+    background-color: rgb(217, 239, 247);
+    color: #007bff;
+  }
+  
+  .lowest-rating-text,
+  .highest-rating-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px; 
+  }
+  

@@ -1,0 +1,105 @@
+{
+    "inputText": {
+      "label": "Multiple Choice",
+      "isHeading": true,
+      "headingIcon": "IoIosCheckboxOutline",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Multiple Choice",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "options": {
+      "label": "Options",
+      "column": "column",
+      "designType":"general",
+      "field": "multiple-choice",
+      "type": "draggable-options",
+      "option": [
+        {
+          "id": 1,
+          "defaultLabel": "Strongly Agree"
+        },
+        {
+          "id": 2,
+          "defaultLabel": "Agree"
+        },
+        {
+          "id": 3,
+          "defaultLabel": "Neutral"
+        },
+        {
+            "id":4,
+            "defaultLabel": "Disagree"
+        },
+        {
+        "id": 5,
+        "defaultLabel": "Strongly Disagree"
+        }
+      ]
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "defaultValue": {
+      "label": "Default Value",
+      "column": "column",
+      "context": "multiple",
+      "designType": "advanced",
+      "type": "checkbox",
+      "option": [
+        {
+          "id": 1,
+          "defaultLabel": "Strongly Agree"
+        },
+        {
+          "id": 2,
+          "defaultLabel": "Agree"
+        },
+        {
+          "id": 3,
+          "defaultLabel": "Neutral"
+        },
+        {
+          "id": 4,
+          "defaultLabel": "Disagree"
+        },
+        {
+          "id": 3,
+          "defaultLabel": "Strongly Agree"
+        }
+      ]
+    },
+    "Style":{
+    "label": "Style",
+      "designType": "advanced",
+      "type": "dropdown-style",
+      "option": [
+      {
+        "id": 1,
+        "value": false,
+        "styleType": "standard"
+      },
+      {
+        "id": 2,
+        "value": true,
+        "styleType": "modern"
+      }
+    ]
+  }
+  }
+  

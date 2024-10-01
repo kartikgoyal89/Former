@@ -1,0 +1,21 @@
+.video-container{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+.ytp-cued-thumbnail-overlay{
+    overflow: hidden !important;
+    width: 90% !important;
+}
+.video-img{
+    background-color: #eeff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-img img{
+    width: 60px !important;
+    height: 60px !important;
+    opacity: 0.2;
+}

@@ -1,0 +1,74 @@
+{
+    "inputText": {
+      "label": "Scale Rating",
+      "isHeading": true,
+      "headingIcon": "PiChartBarBold",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Scale Rating",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "lowestRating" : {
+      "label": "Lowest Rating Point",
+      "defaultValue": 1,
+      "designType": "general",
+      "type": "number-select",
+      "default": 0,
+      "start": -20,
+      "end": 20
+    },
+    "highestRating" : {
+      "label": "Highest Rating Point",
+      "defaultValue": 15,
+      "designType": "general",
+      "type": "number-select",
+      "default": 10,
+      "start": 1,
+      "end": 20
+    },
+    "lowestRatingText" : {
+      "label": "Lowest Rating Text",
+      "defaultValue": "Worst",
+      "designType": "general",
+      "column": "column",
+      "type": "input"
+    },
+    "highestRatingText" : {
+      "label": "Highest Rating Text",
+      "defaultValue": "Best",
+      "designType": "general",
+      "column": "column",
+      "type": "input"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "defaultVal": {
+      "label": "Default Value",
+      "designType": "advanced",
+      "defaultValue": "Default Value",
+      "context": "scale",
+      "column": "column",
+      "type": "number-select",
+      "range": "defaultRange",
+      "default": 0,
+      "start": 0,
+      "end": 10
+    }
+  }
+  

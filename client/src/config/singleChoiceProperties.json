@@ -1,0 +1,86 @@
+{
+    "inputText": {
+      "label": "Single Choice",
+      "isHeading": true,
+      "headingIcon": "IoMdRadioButtonOn",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Single Choice",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "options": {
+      "label": "Options",
+      "column": "column",
+      "designType":"general",
+      "field": "single-choice",
+      "type": "draggable-options",
+      "option": [
+        {
+          "id": 1,
+          "defaultLabel": "Yes"
+        },
+        {
+          "id": 2,
+          "defaultLabel": "No"
+        },
+        {
+          "id": 3,
+          "defaultLabel": "Maybe"
+        }
+      ]
+    },
+    "defaultValue": {
+      "label": "Default Value",
+      "column": "column",
+      "context": "single",
+      "designType": "advanced",
+      "type": "radio",
+      "option": [
+        {
+          "id": 1,
+          "defaultLabel": "Yes",
+          "value": "yes"
+        },
+        {
+          "id": 2,
+          "defaultLabel": "No",
+          "value": "no"
+        },
+        {
+          "id": 3,
+          "defaultLabel": "Maybe",
+          "value": "maybe"
+        }
+      ]
+    },
+    "Style":{
+    "label": "Style",
+      "designType": "advanced",
+      "type": "dropdown-style",
+      "option": [
+      {
+        "id": 1,
+        "value": false,
+        "styleType": "standard"
+      },
+      {
+        "id": 2,
+        "value": true,
+        "styleType": "modern"
+      }
+    ]
+  }
+  }
+  

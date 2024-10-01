@@ -1,0 +1,54 @@
+{
+    "buttonText": {
+      "label": "Button",
+      "defaultValue": "Submit",
+      "isHeading": true,
+      "headingIcon": "IoRadioButtonOnSharp",  
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+      "label1": "General Properties",
+      "type": "design",
+      "designType": "head"
+    },
+    "buttonInputText": {
+    "label": "Button Text",
+    "type": "input",
+    "column": "column",
+    "defaultValue": "Submit",
+    "designType": "general"
+  },
+    "btnFontsize": {
+      "label": "Button Text Font Size",
+      "defaultValue": 20,
+      "min": 20,
+      "column": "column",
+      "type": "number",
+      "designType": "general"
+    },
+    "btnHeight": {
+      "label": "Height",
+      "defaultValue": 42,
+      "min": 38,
+      "max": 60,
+      "column": "column",
+      "type": "number",
+      "designType": "general"
+    },
+   "bold": {
+    "label": "Boldness",
+    "icon": "FaBold",
+    "type": "button",
+    "value": "B",
+    "display": "flex",
+    "designType": "general"
+  },
+  "italic": {
+    "label": "Font Italic",
+    "icon": "FaItalic",
+    "type": "button",
+    "value": "I",
+    "designType": "general"
+  }
+}

@@ -1,0 +1,44 @@
+{
+    "inputText": {
+      "label": "File Upload",
+      "isHeading": true,
+      "headingIcon": "TbCurrentLocation",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "File Upload",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "type": "input",
+      "designType": "general"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "multiple": {
+        "label": "Multiple Files",
+        "type": "toggle",
+        "defaultValue": "off",
+        "designType": "general"
+    },
+    "maxSize": {
+        "label": "Size Limit (in MB)",
+        "type": "number",
+        "context": "fileSize",
+        "column": "column",
+        "designType": "general",
+        "min": 1,
+        "max": 50
+    }
+  }
+  

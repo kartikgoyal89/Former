@@ -1,0 +1,17 @@
+.audio{
+    width: 100% !important;
+}
+
+.default-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeff;
+    height: 200px;
+}
+
+.audio-default-img{
+    width: 70px;
+    width: 170px;
+    opacity: 0.4;
+}

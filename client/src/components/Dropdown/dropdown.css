@@ -1,0 +1,24 @@
+.dropdown-container{
+    outline: none;    
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dropdown-select{
+    width: 100%;
+    height: 42px;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    font-size: 18px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+
+.dropdown-option{
+    font-size: 18px !important;
+}
+

@@ -1,0 +1,34 @@
+.image-container{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.img-container .default-img{
+    width: 100px;
+    height: 100px;
+}
+
+.uploaded-img{
+    object-fit: contain;
+}
+.uploaded-img.visible{
+    visibility: inherit;
+    display: block;
+}
+.uploaded-img.invisible{
+    display: none;
+}
+.bg-visible{
+    background-color: #eeff !important;
+    height: 250px !important;
+}
+.bg-white{
+    background-color: white;
+    padding: 10px;
+}

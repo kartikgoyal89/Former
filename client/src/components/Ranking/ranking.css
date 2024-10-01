@@ -1,0 +1,16 @@
+.ranking-container{
+    outline: none;
+}
+
+.sortable-list{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.sortable-select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    color: gray;
+    outline: none;
+}

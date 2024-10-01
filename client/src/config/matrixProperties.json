@@ -1,0 +1,61 @@
+{
+    "inputText": {
+      "label": "Matrix",
+      "isHeading": true,
+      "headingIcon": "CiViewTable",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Matrix",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "options": {
+      "label": "Options",
+      "column": "column",
+      "matrix": "row",
+      "designType":"general",
+      "field": "matrix",
+      "type": "draggable-options",
+      "option": [
+        {
+          "id": "row-1",
+          "defaultLabel": "Row 1"
+        }
+      ]
+    },
+    "optionsCol": {
+        "label": "Options",
+        "column": "column",
+      "matrix": "column",
+        "designType":"general",
+        "field": "matrix",
+        "type": "draggable-options",
+        "option": [
+          {
+            "id": "col-1",
+            "defaultLabel": "Column 1"
+          },
+          {
+            "id": "col-2",
+            "defaultLabel": "Column 2"
+          }
+        ]
+      },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    }
+  }
+  

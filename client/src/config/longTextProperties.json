@@ -1,0 +1,65 @@
+{
+    "inputText": {
+      "label": "Long Text",
+      "isHeading": true,
+      "headingIcon": "FiFileText",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Long Text",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "type": "input",
+      "designType": "general"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "Type your answer here...",
+      "column": "column",
+      "type": "textarea",
+      "designType": "general"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "inputHeight": {
+      "label": "Input Height",
+      "defaultValue": "5",
+      "column": "column",
+      "type": "number",
+      "designType": "advanced"
+    },
+    "defaultVal": {
+      "label": "Default Value",
+      "defaultValue": "Default Value",
+      "column": "column",
+      "type": "input",
+      "designType": "advanced"
+    },
+    "MinChar": {
+      "label": "Minimum Characters",
+      "defaultValue": "5",
+      "column": "column",
+      "type": "number",
+      "designType": "advanced"
+    },
+    "MaxChar": {
+      "label": "Maximum Characters",
+      "defaultValue": "10",
+      "column": "column",
+      "type": "number",
+      "designType": "advanced"
+    }
+  }
+  

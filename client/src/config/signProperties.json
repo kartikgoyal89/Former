@@ -1,0 +1,34 @@
+{
+    "inputText": {
+      "label": "Signature",
+      "isHeading": true,
+      "headingIcon": "PiPenNib",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Signature",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "type": "input",
+      "designType": "general"
+    },
+    "color": {
+      "label": "Pen Color",
+      "type": "color",
+      "designType": "general"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    }
+  }
+  

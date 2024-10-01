@@ -1,0 +1,55 @@
+{
+    "inputText": {
+      "label": "Date",
+      "isHeading": true,
+      "headingIcon": "MdOutlineDateRange",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Date",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "Pick a Date",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "StartDate": {
+      "label": "Start Date",
+      "designType": "advanced",
+      "type": "date",
+      "column": "column"
+    },
+    "EndDate": {
+      "label": "End Date",
+      "designType": "advanced",
+      "type": "date",
+      "column": "column"
+    },
+    "DefaultDate": {
+      "label": "Default Date",
+      "designType": "advanced",
+      "type": "date",
+      "column": "column"
+    }
+  }
+  

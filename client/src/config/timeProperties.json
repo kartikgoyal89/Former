@@ -1,0 +1,55 @@
+{
+    "inputText": {
+      "label": "Time",
+      "isHeading": true,
+      "headingIcon": "MdAccessTime",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "label2": "Advanced",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "Time",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "placeholderText": {
+      "label": "Placeholder Text",
+      "defaultValue": "Pick a Time",
+      "column": "column",
+      "designType": "general",
+      "type": "input"
+    },
+    "required": {
+      "label": "Required",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "StartTime": {
+      "label": "Start Time",
+      "designType": "advanced",
+      "type": "time",
+      "column": "column"
+    },
+    "EndTime": {
+      "label": "End Time",
+      "designType": "advanced",
+      "type": "time",
+      "column": "column"
+    },
+    "DefaultTime": {
+      "label": "Default Time",
+      "designType": "advanced",
+      "type": "time",
+      "column": "column"
+    }
+  }
+  

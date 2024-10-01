@@ -1,0 +1,45 @@
+{
+    "inputText": {
+      "label": "Spacer",
+      "isHeading": true,
+      "headingIcon": "RxSpaceBetweenVertically",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+  "height": {
+    "designType": "general",
+    "type": "number",
+    "column": "column",
+    "label": "Height",
+    "min": 0,
+    "defaultValue": 30,
+    "max": 500
+  },
+  "hr": {
+      "label": "Use Seperator Line",
+      "context": "hr",
+      "type": "toggle",
+      "defaultValue": "off",
+      "designType": "general"
+    },
+    "seperatorHeight": {
+        "label": "Seperator Height",
+        "type": "number",
+        "column": "column",
+      "designType": "general",
+        "max": 50,
+        "min": 2,
+        "defaultValue": 2
+    },
+    "seperatorColor": {
+        "label": "Seperator Color",
+      "designType": "general",
+        "type": "color"
+    }
+  }
+  

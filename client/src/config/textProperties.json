@@ -1,0 +1,50 @@
+{
+    "inputText": {
+      "label": "Text",
+      "isHeading": true,
+      "headingIcon": "PiTextTBold",
+      "designType": "head",
+      "type": "heading"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+  "input": {
+    "label": "Field Label",
+    "type": "input",
+    "column": "column",
+    "defaultValue": "Add a short paragraph",
+    "designType": "general"
+  },
+    "fontSize": {
+      "label": "Font Size",
+      "defaultValue": 15,
+      "type": "number",
+      "max": "25",
+      "min": "12",
+      "designType": "general"
+    },
+    "color": {
+    "label": "Font Color",
+    "type": "color",
+    "value": "#000000",
+    "designType": "general"
+  },
+    "bold": {
+      "label": "Boldness",
+      "icon": "FaBold",
+      "type": "button",
+      "value": "B",
+      "designType": "general"
+    },
+    "italic": {
+      "label": "Font Italic",
+      "icon": "FaItalic",
+      "type": "button",
+      "value": "I",
+      "designType": "general"
+    }
+  }
+  

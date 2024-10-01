@@ -1,0 +1,38 @@
+{
+    "inputText": {
+      "label": "Image",
+      "isHeading": true,
+      "headingIcon": "IoImageOutline",
+      "type": "heading",
+      "designType": "head"
+    },
+    "design": {
+    "label1": "General Properties",
+    "type": "design",
+    "designType": "head"
+  },
+    "fieldLabel": {
+      "label": "Field-Label",
+      "defaultValue": "",
+      "placeholder": "Enter Question",
+      "column": "column",
+      "paragraph": "Type your question. Use @ to recall answer from previous question.",
+      "designType": "general",
+      "type": "input"
+    },
+    "choose": {
+        "label": "Choose Image",
+        "designType": "general",
+        "type": "add-button",
+        "value": "Add"
+    },
+    "imgSize": {
+        "label": "Image Size",
+        "designType": "general",
+        "type": "number",
+        "max": 500,
+        "min": 50,
+        "defaultValue": 150
+    }
+  }
+  
